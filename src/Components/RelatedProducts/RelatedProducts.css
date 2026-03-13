@@ -21,3 +21,54 @@
     gap: 30px;
     margin-top: 50px;
 }
+
+/* Responsive Design */
+@media (max-width: 1280px) {
+    .relatedproducts h1 {
+        font-size: 40px;
+    }
+    .relatedproducts hr {
+        width: 160px;
+    }
+    .relatedproducts-item {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .relatedproducts {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .relatedproducts h1 {
+        font-size: 30px;
+    }
+    .relatedproducts-item {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 800px) {
+    .relatedproducts h1 {
+        font-size: 25px;
+    }
+    .relatedproducts hr {
+        width: 120px;
+    }
+    .relatedproducts-item {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .relatedproducts h1 {
+        font-size: 20px;
+    }
+    .relatedproducts hr {
+        width: 100px;
+    }
+    .relatedproducts-item {
+        gap: 10px;
+    }
+}

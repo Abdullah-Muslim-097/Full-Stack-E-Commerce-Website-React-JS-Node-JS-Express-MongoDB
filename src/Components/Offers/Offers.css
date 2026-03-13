@@ -42,3 +42,78 @@
     align-items: flex-end;
     padding-top: 50px;
 }
+
+/* Responsive Design */
+@media (max-width: 1280px) {
+    .offers {
+        width: 80%;
+        padding: 0px 80px;
+    }
+    .offers-left h1 {
+        font-size: 60px;
+    }
+    .offers-left p {
+        font-size: 18px;
+    }
+    .offers-right img {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .offers {
+        padding: 0px 40px;
+        height: auto;
+        min-height: 50vh;
+    }
+    .offers-left h1 {
+        font-size: 40px;
+    }
+    .offers-left button {
+        width: 220px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .offers-right {
+        padding-top: 30px;
+    }
+    .offers-right img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .offers {
+        flex-direction: column;
+        width: 90%;
+        padding: 30px;
+        gap: 30px;
+    }
+    .offers-left {
+        align-items: center;
+        text-align: center;
+    }
+    .offers-right {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .offers {
+        width: 95%;
+        padding: 20px;
+    }
+    .offers-left h1 {
+        font-size: 30px;
+    }
+    .offers-left p {
+        font-size: 14px;
+    }
+    .offers-left button {
+        width: 180px;
+        height: 40px;
+        font-size: 16px;
+    }
+}
