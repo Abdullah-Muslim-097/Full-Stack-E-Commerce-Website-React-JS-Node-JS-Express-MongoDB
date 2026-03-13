@@ -89,9 +89,10 @@
 @media (max-width: 800px) {
     .hero {
         flex-direction: column;
+        height: auto;
     }
     .hero-left {
-        padding: 50px 30px;
+        padding: 100px 30px;
         align-items: center;
         text-align: center;
     }
@@ -112,6 +113,9 @@
         height: 50px;
         font-size: 16px;
     }
+    .hero-right {
+        display: none;
+    }
     .hero-right img {
         width: 100%;
         max-width: 300px;
@@ -120,7 +124,7 @@
 
 @media (max-width: 500px) {
     .hero-left {
-        padding: 30px 15px;
+        padding: 60px 15px;
     }
     .hero-left p {
         font-size: 40px;

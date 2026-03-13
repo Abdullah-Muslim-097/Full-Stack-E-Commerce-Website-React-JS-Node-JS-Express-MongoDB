@@ -88,15 +88,16 @@
     .offers {
         flex-direction: column;
         width: 90%;
-        padding: 30px;
-        gap: 30px;
+        padding: 50px 30px;
+        gap: 0;
+        min-height: auto;
     }
     .offers-left {
         align-items: center;
         text-align: center;
     }
     .offers-right {
-        justify-content: center;
+        display: none;
     }
 }
 
