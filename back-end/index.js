@@ -37,7 +37,7 @@ app.post("/upload",upload.single('product'),(req,res)=>{
     })
 })
 // schema for creating products
-const product = mongoose.model("Product",{
+const Product = mongoose.model("Product",{
     id:{
         type: Number,
         required: true,
@@ -73,7 +73,7 @@ const product = mongoose.model("Product",{
 })
 
 app.post('/addproduct',async (req,res)=>{
-    const product = new product({
+    const product = new Product({
         id:req.body.id,
         name:req.body.name,
         image:req.body.image,
